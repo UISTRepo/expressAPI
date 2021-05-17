@@ -102,7 +102,6 @@ router.post('/newMessage', function(req, res, next) {
 });
 
 router.delete('/:id', function (req ,res) {
-    // TODO: add the fetch api call on the frontend to delete specific message
 
     var mysql = require('../connections/mysql');
     var connection = mysql.connection;
